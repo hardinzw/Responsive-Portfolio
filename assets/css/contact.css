@@ -1,0 +1,149 @@
+body {width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #dddddd}
+
+header {width: 100%;
+        background: #666666;
+        margin: 0 auto;
+        overflow: hidden;}
+
+#main {width: 80%;
+    margin: 0 auto;
+    overflow: hidden;}
+
+/*Header*/
+.logo {float: left;
+    background: darkred;
+    text-transform: uppercase;}
+
+a {text-decoration: none;
+    color: white;}
+
+li {list-style: none;
+    display: inline;
+    margin: 5px;
+    margin-right: 20px;
+    font-size: 15px;
+    text-transform: uppercase;}
+
+.nav {float: right;
+    margin-top: 15px;}
+
+
+.main {background: white;
+    border: 2px solid #dddddd;
+    position: absolute;
+    width: 80%;
+    margin-top: 62px;
+    left: 4%;
+    padding: 20px;
+    height: 600px;}
+
+/*Contact*/
+h1 {color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-top: 25px;}
+
+/*Name*/
+h2 {font-size: 20px;
+    color: #777777;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif}
+
+/*Email*/
+h3 {font-size: 20px;
+    color: #777777;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif}
+
+/*Message*/
+h4 {font-size: 20px;
+    color: #777777;
+    margin-bottom: 5px;
+    margin-top: 13px;
+    font-family: Arial, Helvetica, sans-serif}
+
+/*About link*/
+h5 {float:left;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 940px;
+    margin-right: 10px}
+    
+/*Portfolio link*/
+h6 {float: left;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 0px;}
+/*Contact link*/
+h7 {float:left;
+    margin-left: 10px;
+    margin-top: 5px;}
+
+/*Divider*/
+#horizontal-line {background-color: #dddddd;
+    width: 98.3%;
+    height: 4px;
+    margin-top: 25px;}
+
+/*Name and Email Inputs*/
+input {width: 97.9%;
+    height: 20px;
+    border: 2px solid #dddddd;
+    text-align: left;
+    line-height: 15px;}
+
+/*Message text box*/
+textarea {border: 2px solid #dddddd;
+    margin-top: 0px;
+    width: 97%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif}
+
+/*Footer*/
+footer {background: #666666;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 5px solid darkred;}
+
+.copyright {color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;}
+
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+    header {float: none;
+            text-align: center;
+            width: 100%;}
+    
+    .nav{margin-right: 30px;}
+
+    }
+                    
+@media screen and (max-width: 640px){
+header .logo,
+header .nav {float: none;
+            text-align: center;
+            width: 100%;
+            padding: 2px;}
+
+#main {width: 100%;
+        float: none;}
+
+.main {background: white;
+        border: 2px solid #dddddd;
+        position: absolute;
+        width: 80%;
+        margin-top: 17px;
+        left: 4%;
+        padding: 20px;
+        height: 600px;}
+
+}
